@@ -1,0 +1,19 @@
+{
+  "collection": "filesystem_example",
+  "Example_folder_main_1": {
+    "assets": [
+      "SampleVideo.mp4"
+    ],
+    "Example_folder_nested": {
+      "assets": [
+        "SampleVideoNested.flac",
+        "SampleVideoNested.avi"
+      ],
+      "Example_folder_nested_nested": {}
+    }
+  },
+  "assets": [
+    "SampleVideoMain.mp4"
+  ],
+  "Example_folder_main_2": {}
+}

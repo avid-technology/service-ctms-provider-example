@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "type": "filesystem",
+    "serviceName": "filesystem-example",
+    "appID": "Your-AppId",
+    "appSecret": "Your-AppSecret",
+    "description": "CTMS provider example",
+    "realm": "global",
+    "version": 1902081258,
+    "build": "1"
+  },
+  "signing": {
+    "login": "",
+    "developerID": "",
+    "organization": "",
+    "privateKeyPath": ""
+  },
+  "connection": {
+    "hostIp": "<<MediaCentral | CloudUX machine address >>"
+  }
+}

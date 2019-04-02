@@ -1,0 +1,98 @@
+{
+  "getServiceRoot": {
+    "description": "getServiceRoot",
+    "rest": {
+      "path": "getServiceRoot",
+      "queryParams": [],
+      "method": "GET"
+    },
+    "examples": {
+      "try": {
+        "paramSet": []
+      }
+    }
+  },
+  "collection": {
+    "description": "collection",
+    "rest": {
+      "path": "collection/{id}",
+      "queryParams": [
+        "id",
+        "filter"
+      ],
+      "method": "GET"
+    },
+    "examples": {
+      "try": {
+        "paramSet": {
+          "id": "1",
+          "filter": "filter"
+        }
+      }
+    }
+  },
+  "folders": {
+    "description": "folders/{id}",
+    "rest": {
+      "path": "folders/{id}",
+      "queryParams": [
+        "id",
+        "filter"
+      ],
+      "method": "GET"
+    },
+    "examples": {
+      "try": {
+        "paramSet": {
+          "id": "1",
+          "filter": "filter"
+        }
+      }
+    }
+  },
+  "items": {
+    "description": "items/{id}",
+    "rest": {
+      "path": "items/{id}",
+      "queryParams": [
+        "id"
+      ],
+      "method": "GET"
+    },
+    "examples": {
+      "try": {
+        "paramSet": {
+          "id": "id"
+        }
+      }
+    }
+  },
+  "locations": {
+    "description": "locations",
+    "rest": {
+      "path": "locations",
+      "queryParams": [],
+      "method": "GET"
+    },
+    "examples": {
+      "try": {
+        "paramSet": []
+      }
+    }
+  },
+  "assets": {
+    "description": "assets",
+    "rest": {
+      "path": "assets/{id}",
+      "queryParams": [
+        "id"
+      ],
+      "method": "GET"
+    },
+    "examples": {
+      "try": {
+        "paramSet": []
+      }
+    }
+  }
+}

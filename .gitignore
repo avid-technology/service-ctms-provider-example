@@ -1,0 +1,10 @@
+node_modules
+package-lock.json
+helper.config.json
+.vs
+.vscode
+.idea
+logs.txt
+log
+service.ops.config.temp.json
+service-ctms-provider-example-github.iml
