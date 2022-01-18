@@ -6,7 +6,7 @@
     "appSecret": "Your-AppSecret",
     "description": "CTMS provider example",
     "realm": "global",
-    "version": 1902081258,
+    "version": 1,
     "build": "1"
   },
   "signing": {

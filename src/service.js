@@ -1,6 +1,4 @@
 const config = require('../project.config.json');
-const timestamp = require('time-stamp');
-config.identity.version = parseInt(timestamp('YYMMDDHHmm'));
 const fs = require('fs');
 const logger = require.main.require('log4js').getLogger(`cloudux-starter-kit-service ${__filename}`);
 
@@ -54,7 +52,7 @@ Service.prototype.getServiceRoot = function(req, operationContext) {
 Service.prototype.folders = function(req, operationContext) {
     try {
         const filter = req.paramSet ? (req.paramSet.filter || null) : null;
-        const id = getIDFromJson(req.paramSet);
+        const id = getIDFromJson(req.paramSet.id);
         const res = location.loc_collection_for_id(server, filter, id);
         logger.info("folders res:", res);
         operationContext.reply(res);

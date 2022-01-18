@@ -20,7 +20,7 @@ function resource(server, href, templated, templateParams, param, fullHref) {
 function serviceRoot(server) {
     const resources = {
         "loc:locations": [resource(server, "locations")],
-        "loc:root-item": [resource(server, "root-item", true)],
+        "loc:root-item": [resource(server, "items/%2F")],
     };
     return {
         systems: [
