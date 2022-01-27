@@ -8,9 +8,6 @@ const links = function (server, item, path) {
             href: item.type === fileTypes.folder ?
                 server.url("folders" + item.path) : server.url("items" + item.path)
         },
-        "loc:path-to-root": {
-            href: server.url("path" + item.path)
-        },
         "curies": [
             {
                 name: "loc",

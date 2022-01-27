@@ -29,7 +29,7 @@ function create(server, id, items, filter) {
 exports.create = create;
 
 function collection(server, id, items, filter) {
-    const helperConfig = require('../../helper.config.json')
+    // const helperConfig = require('../../helper.config.json')
     return {
         paging: getPaging(items),
         _links: {

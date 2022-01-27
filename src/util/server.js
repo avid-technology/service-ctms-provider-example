@@ -28,7 +28,7 @@ module.exports = new function () {
         } else {
             path = tempPath.join('/');
         }
-        path = path.replace(/ /g, '%20').replace(/\//g, '%2F')
+        path = path.replace(/ /g, '%20').replace(/\//g, '%2F');
         return this.protocol + "://" + this.serverName + "/apis/" + this.serviceName + ";version=" + this.serviceVersion +
             ";realm=" + this.serviceRealm + "/" + method + path;
     };
